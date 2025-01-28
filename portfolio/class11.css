@@ -1,0 +1,103 @@
+#navbar {
+  color: white;
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: sticky;
+  top: 0;
+}
+#navbar li {
+  list-style: none;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#navbar a {
+  color: white;
+  text-decoration: none;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0%;
+}
+.one {
+  justify-content: center;
+}
+#header {
+  color: maroon;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border: 3px solid red;
+  background-color: rgb(248, 163, 186);
+}
+.pp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.pp img {
+  border-radius: 50%;
+  height: 50%;
+  width: 10%;
+}
+.new {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.works {
+  display: flex;
+  justify-content: center;
+}
+.works img {
+  border-radius: 50%;
+  background-color: rgb(80, 107, 80);
+}
+.h2 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.lab img {
+  border-radius: 50%;
+  height: 120%;
+  font-weight: 20%;
+}
+
+.lab {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.about p {
+  text-align: center;
+}
+.about {
+  background-color: whitesmoke;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#navbar li:hover {
+  background-color: gray;
+}
+.about:hover {
+  background-color: rgb(204, 196, 196);
+}
+body {
+  background-color: rgb(238, 195, 6);
+}
